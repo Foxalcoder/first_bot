@@ -1,9 +1,11 @@
 import telebot
 from telebot import types
 
+from conf import tocken
+
 API_TOKEN = ''
 
-bot = telebot.TeleBot("6400731679:AAHYZif9k5uembAtlHEShZV0KrOdJkcmOf0")
+bot = telebot.TeleBot(tocken)
 
 
 # Handle '/start' and '/help'
